@@ -1,0 +1,181 @@
+/*Menu*/
+
+body{
+    font-family: Nunito,sans-serif ;
+    color: 1c1c1c;
+}
+
+h1, h2, h3{
+    font-family: yellowtail, sans-serif ;
+    color: #000000;
+}
+
+.botao {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #191970;
+    color: #ffffff;
+}
+
+
+nav{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: #222122;
+}
+
+nav > a {
+
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 32px;
+    font-family: Yellowtail, serif;
+}
+
+nav ul {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 100;
+}
+
+nav ul li {
+
+    text-align: center;
+    width: 100%;
+
+}
+
+nav ul li a {
+
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+/*cabeçalho*/
+
+header{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px;
+  
+}
+
+header h1 {
+
+    color: #ffffff;
+}
+
+header p {
+
+    margin-bottom: 2em;
+
+}
+
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    background-color: #222122;
+    color: #ffffff;
+    
+}
+
+#sobre {
+    color: #f1f1f1;
+
+}
+
+#sobre p {
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+
+#sobre .botao {
+
+    background-color: #191970;
+    color: 1c1c1c;
+
+}
+
+/*Serviços*/
+
+#serviços{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/*Fotos*/
+
+#fotos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+
+}
+#fotos h2{
+    margin-bottom: 20px;
+
+}
+
+#fotos img {
+
+    width: 100%;
+}
+
+/*Contato*/
+
+#contato {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#contato h2 {
+
+    color: #000000;
+}
+
+/*Rodape*/
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #191970;
+    color: #ffffff;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #00ffff;
+    text-align: center;
+
+}
